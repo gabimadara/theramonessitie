@@ -1,0 +1,16 @@
+.body {
+  /* fondo  */
+  background: url(/imagenes/fondo1.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* imagenes */
+.logo {
+  width: 70px;
+  height: 80px;
+}
+
+.img {
+  width: 620px;
+  height: 505px;
+}/*# sourceMappingURL=imagenes.css.map */

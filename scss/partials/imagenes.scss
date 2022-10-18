@@ -1,0 +1,27 @@
+.body{ 
+    /* fondo  */
+
+    background: url(/imagenes/fondo1.jpg)no-repeat center center fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+     
+    
+}
+/* imagenes */
+
+@mixin img {
+    width: 620px;
+    height: 505px ;
+}
+
+.logo{
+width: 70px;
+height: 80px; ;
+
+}
+.img{
+
+    @include img()
+}
